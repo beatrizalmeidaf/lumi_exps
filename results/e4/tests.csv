@@ -1,0 +1,7 @@
+a,b,a_menos_b,ic_lo,ic_hi
+nemo4b__plus-delta-r0,nemo4b__bf16,0.00255,-0.00174,0.00674
+nemo4b__plus-delta-r16,nemo4b__bf16,-0.00994,-0.01478,-0.00511
+nemo4b__plus-delta-r64,nemo4b__bf16,-0.00489,-0.00994,0.00011
+nemo4b__plus-delta-r256,nemo4b__bf16,0.00413,-0.0013,0.00929
+lumi4b__bf16,nemo4b__bf16,0.03031,0.0239,0.03667
+lumi4b__bf16,nemo4b__plus-delta-r256,0.02618,0.02026,0.03194

@@ -1,0 +1,41 @@
+teste,config,medida,valor,ic_lo,ic_hi
+H2,rtn-w4g128,"queda PT - queda EN (Lumi, MMLU pareado)",0.0175,0.0109,0.0243
+H1,rtn-w4g128,queda do ganho Lumi-Nemotron: PT - EN,0.0164,0.0077,0.0251
+H1a,rtn-w4g128,queda do ganho Lumi-Nemotron em PT,0.025,0.0189,0.0312
+H1b,rtn-w4g128,queda do ganho Lumi-Nemotron em EN,0.0087,0.0026,0.015
+H2,gptq-w4g128-calen,"queda PT - queda EN (Lumi, MMLU pareado)",-0.0027,-0.009,0.0034
+H1,gptq-w4g128-calen,queda do ganho Lumi-Nemotron: PT - EN,-0.0054,-0.0138,0.0033
+H1a,gptq-w4g128-calen,queda do ganho Lumi-Nemotron em PT,0.0007,-0.0053,0.0066
+H1b,gptq-w4g128-calen,queda do ganho Lumi-Nemotron em EN,0.0061,-0.0001,0.0122
+H2,gptq-w4g128-calpt,"queda PT - queda EN (Lumi, MMLU pareado)",-0.0017,-0.0077,0.0043
+H1,gptq-w4g128-calpt,queda do ganho Lumi-Nemotron: PT - EN,-0.0026,-0.0108,0.0056
+H1a,gptq-w4g128-calpt,queda do ganho Lumi-Nemotron em PT,-0.001,-0.0066,0.0047
+H1b,gptq-w4g128-calpt,queda do ganho Lumi-Nemotron em EN,0.0016,-0.0044,0.0076
+H2,rtn-w3g128,"queda PT - queda EN (Lumi, MMLU pareado)",0.0142,0.0051,0.0232
+H1,rtn-w3g128,queda do ganho Lumi-Nemotron: PT - EN,0.0003,-0.0118,0.0127
+H1a,rtn-w3g128,queda do ganho Lumi-Nemotron em PT,0.0164,0.0076,0.0248
+H1b,rtn-w3g128,queda do ganho Lumi-Nemotron em EN,0.016,0.0073,0.0249
+H2,gptq-w3g128-calen,"queda PT - queda EN (Lumi, MMLU pareado)",0.0516,0.0409,0.0625
+H1,gptq-w3g128-calen,queda do ganho Lumi-Nemotron: PT - EN,0.0539,0.0414,0.0665
+H1a,gptq-w3g128-calen,queda do ganho Lumi-Nemotron em PT,0.0925,0.0834,0.1013
+H1b,gptq-w3g128-calen,queda do ganho Lumi-Nemotron em EN,0.0386,0.0296,0.0477
+H2,gptq-w3g128-calpt,"queda PT - queda EN (Lumi, MMLU pareado)",-0.0245,-0.0331,-0.0157
+H1,gptq-w3g128-calpt,queda do ganho Lumi-Nemotron: PT - EN,-0.0298,-0.0421,-0.0172
+H1a,gptq-w3g128-calpt,queda do ganho Lumi-Nemotron em PT,-0.0078,-0.0159,0.0004
+H1b,gptq-w3g128-calpt,queda do ganho Lumi-Nemotron em EN,0.0219,0.0122,0.0316
+H2,rtn-w3g128-onlymamba,"queda PT - queda EN (Lumi, MMLU pareado)",-0.0014,-0.0089,0.0061
+H1,rtn-w3g128-onlymamba,queda do ganho Lumi-Nemotron: PT - EN,0.0002,-0.01,0.0102
+H1a,rtn-w3g128-onlymamba,queda do ganho Lumi-Nemotron em PT,0.0011,-0.006,0.008
+H1b,rtn-w3g128-onlymamba,queda do ganho Lumi-Nemotron em EN,0.0009,-0.0064,0.0082
+H2,rtn-w3g128-onlymlp,"queda PT - queda EN (Lumi, MMLU pareado)",0.0051,-0.0018,0.0122
+H1,rtn-w3g128-onlymlp,queda do ganho Lumi-Nemotron: PT - EN,-0.0009,-0.0102,0.0082
+H1a,rtn-w3g128-onlymlp,queda do ganho Lumi-Nemotron em PT,0.0079,0.0015,0.0146
+H1b,rtn-w3g128-onlymlp,queda do ganho Lumi-Nemotron em EN,0.0088,0.002,0.0155
+H2,rtn-w3g128-onlyattn,"queda PT - queda EN (Lumi, MMLU pareado)",0.0172,0.011,0.0232
+H1,rtn-w3g128-onlyattn,queda do ganho Lumi-Nemotron: PT - EN,0.0118,0.0037,0.0197
+H1a,rtn-w3g128-onlyattn,queda do ganho Lumi-Nemotron em PT,0.0096,0.0039,0.0153
+H1b,rtn-w3g128-onlyattn,queda do ganho Lumi-Nemotron em EN,-0.0022,-0.008,0.0035
+H3,gptq-w3,acc PT: cal-pt - cal-en (Lumi),0.0914,0.0833,0.0994
+H3b,gptq-w3,acc EN: cal-pt - cal-en (Lumi),-0.0011,-0.0083,0.0062
+H3,gptq-w4,acc PT: cal-pt - cal-en (Lumi),0.0033,-0.0011,0.0077
+H3b,gptq-w4,acc EN: cal-pt - cal-en (Lumi),0.004,-0.0005,0.0085

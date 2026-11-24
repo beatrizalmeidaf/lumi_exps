@@ -1,0 +1,10 @@
+https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted
+https://huggingface.co/blog/harness-adapters-at-scale
+
+Essa receita é algo que podemos replicar pro Lumi
+harness-hub/Qwen3.8-27B-pi-adapted · Hugging Face
+Image-Text-to-Text model. Download, explore files and run it on Hugging Face.
+harness-hub/Qwen3.8-27B-pi-adapted · Hugging Face
+Introducing harness adapters: adapt your favorite model to your har...
+We’re on a journey to advance and democratize artificial intelligence through open source and open science.
+Introducing harness adapters: adapt your favorite model to your har...

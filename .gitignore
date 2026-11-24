@@ -1,0 +1,6 @@
+# clone do repositório do grupo (vvvvvdal/lumi-decision): fica só local, tem git próprio
+lumi-decision/
+logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
