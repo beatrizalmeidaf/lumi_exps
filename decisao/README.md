@@ -45,3 +45,45 @@ grupo.
 
 Limites: uma semente (modelo congelado, sem variação de treino); só duas ordens; Traces é só diagnóstico, como
 no grupo.
+
+---
+
+# D2: saída antecipada para decisões (registrado em 2026-11-24, antes de rodar)
+
+**Pergunta:** a decisão do Lumi congelado (distribuição sobre as letras) já está pronta antes da camada 42? Se
+estiver, ler a decisão numa camada intermediária corta o custo do prefill de cada decisão.
+
+* **Leituras por camada:** logit lens (norma final + LM head) e tuned lens afim por camada (ridge em forma
+  fechada, h_l → h_42 antes da norma), ajustado nas últimas 16 posições de até 4.000 casos de **treino**
+  (Felhen + Typed Decisions PT, famílias vistas; o modelo congelado nunca treinou neles e eles não entram na
+  avaliação). Ordem canônica.
+* **Sanidade (derruba o job):** a camada 42 pelo logit lens reproduz a leitura oficial (|Δlog-prob| ≤ 0,02).
+* **Política:** sai na primeira camada l ≥ 8 cuja probabilidade máxima (tuned lens) passa um limiar τ_l
+  escolhido no `calib` para que no máximo ε (1% e 2%) dos casos que saem em l mudem de decisão em relação ao
+  modelo completo. Avaliada no `dev`, vistas e reservadas.
+* **Medidas:** custo relativo médio (tempo de GPU acumulado por camada, medido com eventos CUDA), taxa de
+  decisões que mudam em relação ao modelo completo, acerto com e sem saída antecipada.
+* **Leitura:** vale a pena se o custo médio cair ≥ 20% com mudança ≤ ε também nas reservadas.
+
+# D3: reaproveitar o estado do contexto entre perguntas (registrado em 2026-11-24, antes de rodar)
+
+**Pergunta:** no Typed Decisions PT as perguntas de um mesmo estado compartilham o prefixo do prompt. Fazer o
+prefill do prefixo comum uma vez (estado do Mamba + KV das 4 camadas de atenção) e continuar cada pergunta a
+partir do cache dá as mesmas decisões, mais rápido?
+
+* Até 300 estados de dev + calib com ≥ 2 perguntas; prefixo = maior prefixo comum de tokens menos 1.
+* **Correção:** log-probs das letras iguais às da passada completa (|Δ| ≤ 0,02, mesmo LM head dos dois lados).
+  Dois modos de continuação: em bloco (o sufixo inteiro numa chamada) e token a token. O job registra qual modo
+  o caminho HF suporta corretamente.
+* **Medidas:** aceleração mediana por estado (completo ÷ prefixo + continuações) e fração de tokens
+  economizados. Só os modos que conferem contam.
+
+# D4: abstenção com garantia (registrado em 2026-11-24, antes de rodar)
+
+**Pergunta:** um limiar com garantia estatística no `calib` (Learn-then-Test, sequência fixa com p-valor
+binomial: P(risco entre aceitos ≤ α) ≥ 1−δ, α = δ = 0,10) mantém o risco nas famílias vistas e quanto ele é
+violado nas reservadas, para S1 (referência) e S3 (veto por desacordo)?
+
+* Para a garantia, S1 usa uma ordem por caso (canônica), para os itens serem independentes.
+* **Medidas:** risco entre aceitos e cobertura no dev (vistas e reservadas, média por família) e as famílias
+  que violam α. A violação nas reservadas mede diretamente quanto a calibração não transfere.
