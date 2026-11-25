@@ -131,3 +131,23 @@ nova e reajustando só o limiar, o risco volta para α = 10%?
   (sorteio sem aceitos conta como não violação; a fração sem aceitos é reportada).
 * **Leitura:** o menor m em que `novos_ltt` tem P(viola) ≤ δ com cobertura útil é o "custo em rótulos" de levar a
   abstenção para uma família nova.
+
+# P: sonda linear nos estados internos prevê erro nas famílias reservadas? (registrado em 2026-11-24, antes de rodar)
+
+**Pergunta:** T e R mostraram que o problema nas reservadas é de discriminação (mesmo os casos mais confiantes
+erram muito), não de calibração. Os estados internos têm informação sobre o acerto que a prob. final não tem,
+e ela transfere para famílias não vistas?
+
+* **Extração (GPU):** estado oculto na posição da leitura (último token do prompt), camadas 12, 20, 28, 36 e 42
+  (antes da norma final), ordem canônica, para `train` (só famílias vistas, até 600 por família), `calib` e `dev`
+  de Felhen e Typed Decisions PT. Sanidade (derruba o job): norma(h_42) pela LM head reproduz a leitura oficial
+  (|Δ| ≤ 0,02).
+* **Sonda:** alvo = a decisão do modelo está certa. Padroniza e reduz por PCA a 256 componentes (ajustados no
+  `train`), regressão logística L2 (λ ∈ {0,1, 1, 10, 100}). Camada e λ escolhidos pela AUROC em validação cruzada
+  de 5 dobras por grupo **no `train`**; nada do calib/dev entra na escolha. Secundária: P+ = mesma sonda com
+  logit(p_max) como atributo extra.
+* **Medidas (dev, por fonte, como no D1):** limiar no `calib` para risco 10%, risco entre aceitos, cobertura,
+  AURC, bootstrap de grupos estratificado (2000), P − S1; AUROC por família (discriminação); risco mínimo
+  atingível por família (melhor limiar com ≥ 20 aceitos, oráculo, só diagnóstico).
+* **Leitura:** a sonda transfere se P − S1 no AURC das reservadas tiver IC 95% inteiro abaixo de zero nas duas
+  fontes. Se só melhorar nas vistas, os estados internos não carregam um sinal de erro que generalize.
