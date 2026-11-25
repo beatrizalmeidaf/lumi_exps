@@ -1,0 +1,618 @@
+{
+  "protocolo": "decisao/README.md (T)",
+  "risco_alvo": 0.1,
+  "fontes": {
+    "felhen": {
+      "limiares": {
+        "S1": 0.966215229464015,
+        "T1": null,
+        "T2": 0.8852941265923785
+      },
+      "pesos_T2": [
+        1.1078796169428051,
+        0.7203189139193893,
+        -0.08573101303898666,
+        -0.40279042199725434,
+        -0.14634657526653821
+      ],
+      "n_calib": 1092,
+      "n_dev": 1900,
+      "acerto_dev": {
+        "vistas": 0.7169559412550067,
+        "reservadas": 0.5398009950248757
+      },
+      "l_star_medio": {
+        "vistas": {
+          "acerto": 32.803538175046555,
+          "erro": 35.818396226415096
+        },
+        "reservadas": {
+          "acerto": 35.74654377880184,
+          "erro": 35.13513513513514
+        }
+      },
+      "vistas": {
+        "S1": {
+          "risco_aceitos": 0.06198874726444668,
+          "cobertura": 0.21604921700223714,
+          "aurc": 0.14685507380236146,
+          "risco_cob50": 0.14569127516778524,
+          "por_familia": {
+            "camara_tema": {
+              "n": 300,
+              "cobertura": 0.29,
+              "risco_aceitos": 0.034482758620689655,
+              "erro_sem_abster": 0.29,
+              "aurc": 0.117106851643302,
+              "risco_cob50": 0.11333333333333333
+            },
+            "faquad_resposta": {
+              "n": 300,
+              "cobertura": 0.08,
+              "risco_aceitos": 0.0,
+              "erro_sem_abster": 0.21,
+              "aurc": 0.08803830520197292,
+              "risco_cob50": 0.08
+            },
+            "olid_alvo": {
+              "n": 298,
+              "cobertura": 0.03691275167785235,
+              "risco_aceitos": 0.09090909090909091,
+              "erro_sem_abster": 0.35906040268456374,
+              "aurc": 0.2583066575888864,
+              "risco_cob50": 0.2684563758389262
+            },
+            "olid_ofensivo": {
+              "n": 300,
+              "cobertura": 0.35333333333333333,
+              "risco_aceitos": 0.02830188679245283,
+              "erro_sem_abster": 0.17,
+              "aurc": 0.060815949037395865,
+              "risco_cob50": 0.05333333333333334
+            },
+            "scielo_area": {
+              "n": 300,
+              "cobertura": 0.32,
+              "risco_aceitos": 0.15625,
+              "erro_sem_abster": 0.38666666666666666,
+              "aurc": 0.21000760554025014,
+              "risco_cob50": 0.21333333333333335
+            }
+          }
+        },
+        "T1": {
+          "risco_aceitos": null,
+          "cobertura": 0.0,
+          "aurc": 0.19933517012963234,
+          "risco_cob50": 0.14828635346756153,
+          "por_familia": {
+            "camara_tema": {
+              "n": 300,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.29,
+              "aurc": 0.18495958994769582,
+              "risco_cob50": 0.12666666666666668
+            },
+            "faquad_resposta": {
+              "n": 300,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.21,
+              "aurc": 0.04896859930716355,
+              "risco_cob50": 0.013333333333333334
+            },
+            "olid_alvo": {
+              "n": 298,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.35906040268456374,
+              "aurc": 0.23891229386252613,
+              "risco_cob50": 0.21476510067114093
+            },
+            "olid_ofensivo": {
+              "n": 300,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.17,
+              "aurc": 0.19268933738602648,
+              "risco_cob50": 0.10666666666666667
+            },
+            "scielo_area": {
+              "n": 300,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.38666666666666666,
+              "aurc": 0.33114603014474975,
+              "risco_cob50": 0.28
+            }
+          },
+          "menos_S1": {
+            "risco_aceitos": {
+              "delta": null,
+              "ic95": [
+                NaN,
+                NaN
+              ]
+            },
+            "cobertura": {
+              "delta": -0.21604921700223714,
+              "ic95": [
+                -0.2353871364653244,
+                -0.196715548098434
+              ]
+            },
+            "aurc": {
+              "delta": 0.05248009632727088,
+              "ic95": [
+                0.03192088266205167,
+                0.07166956677590967
+              ]
+            }
+          }
+        },
+        "T2": {
+          "risco_aceitos": 0.18622943722943724,
+          "cobertura": 0.09211185682326622,
+          "aurc": 0.1620512480354701,
+          "risco_cob50": 0.14297986577181207,
+          "por_familia": {
+            "camara_tema": {
+              "n": 300,
+              "cobertura": 0.01,
+              "risco_aceitos": 0.6666666666666666,
+              "erro_sem_abster": 0.29,
+              "aurc": 0.15714396676239506,
+              "risco_cob50": 0.11333333333333333
+            },
+            "faquad_resposta": {
+              "n": 300,
+              "cobertura": 0.14333333333333334,
+              "risco_aceitos": 0.0,
+              "erro_sem_abster": 0.21,
+              "aurc": 0.06722919513898618,
+              "risco_cob50": 0.06
+            },
+            "olid_alvo": {
+              "n": 298,
+              "cobertura": 0.08389261744966443,
+              "risco_aceitos": 0.12,
+              "erro_sem_abster": 0.35906040268456374,
+              "aurc": 0.25081541583897216,
+              "risco_cob50": 0.2348993288590604
+            },
+            "olid_ofensivo": {
+              "n": 300,
+              "cobertura": 0.18666666666666668,
+              "risco_aceitos": 0.05357142857142857,
+              "erro_sem_abster": 0.17,
+              "aurc": 0.10549908559001274,
+              "risco_cob50": 0.08
+            },
+            "scielo_area": {
+              "n": 300,
+              "cobertura": 0.03666666666666667,
+              "risco_aceitos": 0.09090909090909091,
+              "erro_sem_abster": 0.38666666666666666,
+              "aurc": 0.22956857684698442,
+              "risco_cob50": 0.22666666666666666
+            }
+          },
+          "menos_S1": {
+            "risco_aceitos": {
+              "delta": 0.12424068996499057,
+              "ic95": [
+                -0.026870884049133653,
+                0.2246727866423474
+              ]
+            },
+            "cobertura": {
+              "delta": -0.12393736017897092,
+              "ic95": [
+                -0.1439800894854586,
+                -0.10395950782997761
+              ]
+            },
+            "aurc": {
+              "delta": 0.01519617423310865,
+              "ic95": [
+                0.0004469979653995191,
+                0.028167252763448565
+              ]
+            }
+          }
+        }
+      },
+      "reservadas": {
+        "S1": {
+          "risco_aceitos": 0.16666666666666666,
+          "cobertura": 0.06,
+          "aurc": 0.351517420192755,
+          "risco_cob50": 0.35333333333333333,
+          "por_familia": {
+            "factck_veracidade": {
+              "n": 102,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.39215686274509803,
+              "aurc": 0.36296028503400274,
+              "risco_cob50": 0.3333333333333333
+            },
+            "juristcu_area": {
+              "n": 300,
+              "cobertura": 0.12,
+              "risco_aceitos": 0.16666666666666666,
+              "erro_sem_abster": 0.48333333333333334,
+              "aurc": 0.3400745553515073,
+              "risco_cob50": 0.37333333333333335
+            }
+          }
+        },
+        "T1": {
+          "risco_aceitos": null,
+          "cobertura": 0.0,
+          "aurc": 0.4811565283893201,
+          "risco_cob50": 0.46215686274509804,
+          "por_familia": {
+            "factck_veracidade": {
+              "n": 102,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.39215686274509803,
+              "aurc": 0.5134278187003415,
+              "risco_cob50": 0.45098039215686275
+            },
+            "juristcu_area": {
+              "n": 300,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.48333333333333334,
+              "aurc": 0.4488852380782987,
+              "risco_cob50": 0.47333333333333333
+            }
+          },
+          "menos_S1": {
+            "risco_aceitos": {
+              "delta": null,
+              "ic95": [
+                NaN,
+                NaN
+              ]
+            },
+            "cobertura": {
+              "delta": -0.06,
+              "ic95": [
+                -0.08,
+                -0.043333333333333335
+              ]
+            },
+            "aurc": {
+              "delta": 0.1296391081965651,
+              "ic95": [
+                0.07474830154373312,
+                0.17801926277912586
+              ]
+            }
+          }
+        },
+        "T2": {
+          "risco_aceitos": 0.5238095238095238,
+          "cobertura": 0.035,
+          "aurc": 0.43970626033665416,
+          "risco_cob50": 0.39941176470588236,
+          "por_familia": {
+            "factck_veracidade": {
+              "n": 102,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.39215686274509803,
+              "aurc": 0.4696670035988251,
+              "risco_cob50": 0.39215686274509803
+            },
+            "juristcu_area": {
+              "n": 300,
+              "cobertura": 0.07,
+              "risco_aceitos": 0.5238095238095238,
+              "erro_sem_abster": 0.48333333333333334,
+              "aurc": 0.40974551707448326,
+              "risco_cob50": 0.4066666666666667
+            }
+          },
+          "menos_S1": {
+            "risco_aceitos": {
+              "delta": 0.3571428571428572,
+              "ic95": [
+                0.1434150717703349,
+                0.5852279273146208
+              ]
+            },
+            "cobertura": {
+              "delta": -0.024999999999999994,
+              "ic95": [
+                -0.04666666666666667,
+                -0.0049999999999999975
+              ]
+            },
+            "aurc": {
+              "delta": 0.08818884014389916,
+              "ic95": [
+                0.04177524570113959,
+                0.1296096689786865
+              ]
+            }
+          }
+        }
+      }
+    },
+    "telepatia": {
+      "limiares": {
+        "S1": 0.8961954986019544,
+        "T1": null,
+        "T2": 0.8410804643570033
+      },
+      "pesos_T2": [
+        -0.16488083821695418,
+        0.6423926441831518,
+        0.10204101889303138,
+        0.0051106536492513625,
+        0.7462419051807458
+      ],
+      "n_calib": 340,
+      "n_dev": 1920,
+      "acerto_dev": {
+        "vistas": 0.5071428571428571,
+        "reservadas": 0.5713333333333334
+      },
+      "l_star_medio": {
+        "vistas": {
+          "acerto": 34.44131455399061,
+          "erro": 36.570048309178745
+        },
+        "reservadas": {
+          "acerto": 31.55425904317386,
+          "erro": 35.755832037325035
+        }
+      },
+      "vistas": {
+        "S1": {
+          "risco_aceitos": 0.06060606060606061,
+          "cobertura": 0.10295187903883556,
+          "aurc": 0.33860405270183325,
+          "risco_cob50": 0.3806880531859506,
+          "por_familia": {
+            "agent_trace_observability": {
+              "n": 140,
+              "cobertura": 0.007142857142857143,
+              "risco_aceitos": 0.0,
+              "erro_sem_abster": 0.6714285714285714,
+              "aurc": 0.4970758759806991,
+              "risco_cob50": 0.5857142857142857
+            },
+            "customer_service": {
+              "n": 165,
+              "cobertura": 0.20606060606060606,
+              "risco_aceitos": 0.0,
+              "erro_sem_abster": 0.41818181818181815,
+              "aurc": 0.22848587995864858,
+              "risco_cob50": 0.2804878048780488
+            },
+            "security_incidents": {
+              "n": 115,
+              "cobertura": 0.09565217391304348,
+              "risco_aceitos": 0.18181818181818182,
+              "erro_sem_abster": 0.3826086956521739,
+              "aurc": 0.29025040216615217,
+              "risco_cob50": 0.27586206896551724
+            }
+          }
+        },
+        "T1": {
+          "risco_aceitos": null,
+          "cobertura": 0.0,
+          "aurc": 0.38454447151328147,
+          "risco_cob50": 0.3742440626376707,
+          "por_familia": {
+            "agent_trace_observability": {
+              "n": 140,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.6714285714285714,
+              "aurc": 0.6573598610489105,
+              "risco_cob50": 0.5714285714285714
+            },
+            "customer_service": {
+              "n": 165,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.41818181818181815,
+              "aurc": 0.2380503156437631,
+              "risco_cob50": 0.2926829268292683
+            },
+            "security_incidents": {
+              "n": 115,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.3826086956521739,
+              "aurc": 0.2582232378471707,
+              "risco_cob50": 0.25862068965517243
+            }
+          },
+          "menos_S1": {
+            "risco_aceitos": {
+              "delta": null,
+              "ic95": [
+                NaN,
+                NaN
+              ]
+            },
+            "cobertura": {
+              "delta": -0.10295187903883556,
+              "ic95": [
+                -0.12756117071334463,
+                -0.07616922328878852
+              ]
+            },
+            "aurc": {
+              "delta": 0.045940418811448225,
+              "ic95": [
+                -0.01282465528888045,
+                0.09937390661807005
+              ]
+            }
+          }
+        },
+        "T2": {
+          "risco_aceitos": 0.0,
+          "cobertura": 0.05111989459815546,
+          "aurc": 0.3256672492673669,
+          "risco_cob50": 0.35043053386198886,
+          "por_familia": {
+            "agent_trace_observability": {
+              "n": 140,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.6714285714285714,
+              "aurc": 0.4805971196614276,
+              "risco_cob50": 0.5142857142857142
+            },
+            "customer_service": {
+              "n": 165,
+              "cobertura": 0.12727272727272726,
+              "risco_aceitos": 0.0,
+              "erro_sem_abster": 0.41818181818181815,
+              "aurc": 0.20222963163277596,
+              "risco_cob50": 0.24390243902439024
+            },
+            "security_incidents": {
+              "n": 115,
+              "cobertura": 0.02608695652173913,
+              "risco_aceitos": 0.0,
+              "erro_sem_abster": 0.3826086956521739,
+              "aurc": 0.29417499650789714,
+              "risco_cob50": 0.29310344827586204
+            }
+          },
+          "menos_S1": {
+            "risco_aceitos": {
+              "delta": -0.06060606060606061,
+              "ic95": [
+                -0.19999999999999998,
+                0.0
+              ]
+            },
+            "cobertura": {
+              "delta": -0.051831984440680094,
+              "ic95": [
+                -0.07343238283455675,
+                -0.029616741953698497
+              ]
+            },
+            "aurc": {
+              "delta": -0.012936803434466349,
+              "ic95": [
+                -0.03564537473777382,
+                0.006356534665690243
+              ]
+            }
+          }
+        }
+      },
+      "reservadas": {
+        "S1": {
+          "risco_aceitos": 0.17073170731707318,
+          "cobertura": 0.13666666666666666,
+          "aurc": 0.2844964659914798,
+          "risco_cob50": 0.2613333333333333,
+          "por_familia": {
+            "invoice_processing": {
+              "n": 1500,
+              "cobertura": 0.13666666666666666,
+              "risco_aceitos": 0.17073170731707318,
+              "erro_sem_abster": 0.42866666666666664,
+              "aurc": 0.2844964659914798,
+              "risco_cob50": 0.2613333333333333
+            }
+          }
+        },
+        "T1": {
+          "risco_aceitos": null,
+          "cobertura": 0.0,
+          "aurc": 0.3122954063037796,
+          "risco_cob50": 0.228,
+          "por_familia": {
+            "invoice_processing": {
+              "n": 1500,
+              "cobertura": 0.0,
+              "risco_aceitos": null,
+              "erro_sem_abster": 0.42866666666666664,
+              "aurc": 0.3122954063037796,
+              "risco_cob50": 0.228
+            }
+          },
+          "menos_S1": {
+            "risco_aceitos": {
+              "delta": null,
+              "ic95": [
+                NaN,
+                NaN
+              ]
+            },
+            "cobertura": {
+              "delta": -0.13666666666666666,
+              "ic95": [
+                -0.15266666666666667,
+                -0.12133333333333333
+              ]
+            },
+            "aurc": {
+              "delta": 0.02779894031229979,
+              "ic95": [
+                -0.005460755761618807,
+                0.059660738405562797
+              ]
+            }
+          }
+        },
+        "T2": {
+          "risco_aceitos": 0.16546762589928057,
+          "cobertura": 0.09266666666666666,
+          "aurc": 0.25112801219245107,
+          "risco_cob50": 0.20933333333333334,
+          "por_familia": {
+            "invoice_processing": {
+              "n": 1500,
+              "cobertura": 0.09266666666666666,
+              "risco_aceitos": 0.16546762589928057,
+              "erro_sem_abster": 0.42866666666666664,
+              "aurc": 0.25112801219245107,
+              "risco_cob50": 0.20933333333333334
+            }
+          },
+          "menos_S1": {
+            "risco_aceitos": {
+              "delta": -0.00526408141779261,
+              "ic95": [
+                -0.04231623611070741,
+                0.025871757090494624
+              ]
+            },
+            "cobertura": {
+              "delta": -0.044,
+              "ic95": [
+                -0.05466666666666667,
+                -0.03399999999999999
+              ]
+            },
+            "aurc": {
+              "delta": -0.03336845379902875,
+              "ic95": [
+                -0.0420683978350104,
+                -0.02472449655147833
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

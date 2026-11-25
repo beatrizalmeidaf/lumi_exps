@@ -87,3 +87,47 @@ violado nas reservadas, para S1 (referência) e S3 (veto por desacordo)?
 * Para a garantia, S1 usa uma ordem por caso (canônica), para os itens serem independentes.
 * **Medidas:** risco entre aceitos e cobertura no dev (vistas e reservadas, média por família) e as famílias
   que violam α. A violação nas reservadas mede diretamente quanto a calibração não transfere.
+
+**Correção do D4 (após o job 37939, antes de ver qualquer resultado com limiar):** a sequência fixa começava
+no limiar mais alto, com 1 aceito (p-valor 0,9 > δ), e parava ali; nenhum limiar era escolhido em nenhuma
+fonte. Agora só entram na sequência limiares com n ≥ ⌈log δ / log(1−α)⌉ = 22 aceitos (o mínimo para a
+rejeição ser possível). O critério depende só das confianças, então a garantia do LTT se mantém.
+
+---
+
+# T: a trajetória da decisão pelas camadas prevê erro? (registrado em 2026-11-24, antes de rodar)
+
+**Pergunta:** a probabilidade final não transfere para as famílias reservadas (D1, D4). Um sinal que não depende
+da escala da probabilidade transfere melhor? Se o modelo chega à resposta cedo e não muda mais, ele acerta;
+se a resposta troca até as últimas camadas, está chutando.
+
+* **Dados:** o dump do D2 (`resultados/d2/camadas_*.jsonl`): log-probs das opções pelo logit lens em cada uma
+  das 42 camadas, ordem canônica, calib (só vistas) e dev (vistas e reservadas) de Felhen e Typed Decisions PT.
+  Custo zero de GPU em serviço: o logit lens usa a mesma passada.
+* **Sinais:** S1 = prob. máxima final (a referência; temperatura não muda o ordenamento e o limiar é ajustado
+  por sinal). **T1 (principal)** = estabilidade: l* = primeira camada a partir da qual o argmax do logit lens
+  não muda mais e é a decisão final; confiança = (42 − l*) + p_max (desempate por p_max).
+  T2 (secundário) = regressão logística (numpy, L2 = 0,01) em [p_max, l*/42, trocas de argmax entre as camadas
+  30 e 42, prob. média da decisão final nas camadas 30–42], treinada no calib; no calib usa predições fora da
+  dobra (5 dobras por grupo) para escolher o limiar.
+* **Medidas:** as mesmas do D1, por fonte: limiar no calib para risco 10% (mín. 20 aceitos), risco entre
+  aceitos e cobertura no dev, AURC, média por família, bootstrap de grupos estratificado (2000).
+* **Leitura:** T1 transfere se T1 − S1 no risco entre aceitos ou no AURC das reservadas tiver IC 95% inteiro
+  abaixo de zero. Se der, o próximo passo é uma sonda linear nos estados internos (precisa de GPU).
+
+# R: quantos rótulos uma família nova precisa para a abstenção voltar a valer? (registrado em 2026-11-24, antes de rodar)
+
+**Pergunta:** o limiar ajustado nas vistas é violado nas reservadas (D4). Rotulando m exemplos da família
+nova e reajustando só o limiar, o risco volta para α = 10%?
+
+* **Dados:** predições do E1 (Felhen e Typed Decisions PT), temperatura do calib-vistas. Sinais S1 (ordem
+  canônica, um item por caso) e S3 (veto por desacordo, D1).
+* **Procedimento:** para cada família reservada e m ∈ {25, 50, 100, 200, 400}: sorteia grupos do dev da família
+  até ter ≥ m casos rotulados; o resto (≥ 50 casos, senão o m é pulado) é o teste. 200 sorteios, semente 0.
+* **Estratégias de limiar:** `vistas` (calib das vistas, como D1/D4, nada da família nova); `novos_emp`
+  (regra do grupo nos m rótulos, mín. de aceitos min(20, m/2)); `novos_ltt` (Learn-then-Test do D4 nos m
+  rótulos, α = δ = 0,1, n ≥ 22).
+* **Medidas:** risco entre aceitos e cobertura no teste (média dos sorteios) e P(risco > α) entre os sorteios
+  (sorteio sem aceitos conta como não violação; a fração sem aceitos é reportada).
+* **Leitura:** o menor m em que `novos_ltt` tem P(viola) ≤ δ com cobertura útil é o "custo em rótulos" de levar a
+  abstenção para uma família nova.

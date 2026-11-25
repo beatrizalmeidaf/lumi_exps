@@ -375,9 +375,13 @@ def cmd_conformal(a):
                 keep = np.array([i["order"] == "canonical" for i in ci]); conf, err = conf[keep], err[keep]
             grid = np.unique(conf)[::-1]
             tau = None
+            # n mínimo para que a rejeição seja possível (k=0): (1-α)^n <= δ. Limiares com menos aceitos não
+            # entram na sequência; a escolha depende só das confianças, não dos erros, e mantém a garantia.
+            # Correção após o job 37939: sem isso a sequência parava no 1º limiar (n=1, p=0,9) e nunca aceitava.
+            n_min = int(np.ceil(np.log(a.delta) / np.log(1 - a.alpha)))
             for t in grid:  # sequência fixa: do limiar mais alto ao mais baixo, para no primeiro que não rejeita
                 acc = conf >= t; n, k = int(acc.sum()), int(err[acc].sum())
-                if n == 0:
+                if n < n_min:
                     continue
                 pval = binom.cdf(k, n, a.alpha)  # H0: risco > α
                 if pval > a.delta:

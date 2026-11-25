@@ -1,0 +1,1122 @@
+{
+  "por_camada": {
+    "logit": [
+      {
+        "camada": 1,
+        "grupo": "vistas",
+        "concorda_final": 0.28206465067778935,
+        "acerto": 0.31856100104275287
+      },
+      {
+        "camada": 1,
+        "grupo": "reservadas",
+        "concorda_final": 0.27602523659305994,
+        "acerto": 0.2833859095688749
+      },
+      {
+        "camada": 2,
+        "grupo": "vistas",
+        "concorda_final": 0.3472367049009385,
+        "acerto": 0.2935349322210636
+      },
+      {
+        "camada": 2,
+        "grupo": "reservadas",
+        "concorda_final": 0.40063091482649843,
+        "acerto": 0.28023133543638273
+      },
+      {
+        "camada": 3,
+        "grupo": "vistas",
+        "concorda_final": 0.28936392075078204,
+        "acerto": 0.2716371220020855
+      },
+      {
+        "camada": 3,
+        "grupo": "reservadas",
+        "concorda_final": 0.2823343848580442,
+        "acerto": 0.31440588853838064
+      },
+      {
+        "camada": 4,
+        "grupo": "vistas",
+        "concorda_final": 0.40875912408759124,
+        "acerto": 0.30709071949947864
+      },
+      {
+        "camada": 4,
+        "grupo": "reservadas",
+        "concorda_final": 0.2539432176656151,
+        "acerto": 0.2202944269190326
+      },
+      {
+        "camada": 5,
+        "grupo": "vistas",
+        "concorda_final": 0.34932221063607927,
+        "acerto": 0.3550573514077164
+      },
+      {
+        "camada": 5,
+        "grupo": "reservadas",
+        "concorda_final": 0.2607781282860147,
+        "acerto": 0.352260778128286
+      },
+      {
+        "camada": 6,
+        "grupo": "vistas",
+        "concorda_final": 0.28936392075078204,
+        "acerto": 0.3237747653806048
+      },
+      {
+        "camada": 6,
+        "grupo": "reservadas",
+        "concorda_final": 0.2655099894847529,
+        "acerto": 0.3527865404837014
+      },
+      {
+        "camada": 7,
+        "grupo": "vistas",
+        "concorda_final": 0.28310740354535974,
+        "acerto": 0.3164754953076121
+      },
+      {
+        "camada": 7,
+        "grupo": "reservadas",
+        "concorda_final": 0.2665615141955836,
+        "acerto": 0.3527865404837014
+      },
+      {
+        "camada": 8,
+        "grupo": "vistas",
+        "concorda_final": 0.34462982273201254,
+        "acerto": 0.3044838373305527
+      },
+      {
+        "camada": 8,
+        "grupo": "reservadas",
+        "concorda_final": 0.28391167192429023,
+        "acerto": 0.3249211356466877
+      },
+      {
+        "camada": 9,
+        "grupo": "vistas",
+        "concorda_final": 0.3748696558915537,
+        "acerto": 0.28779979144942647
+      },
+      {
+        "camada": 9,
+        "grupo": "reservadas",
+        "concorda_final": 0.2854889589905363,
+        "acerto": 0.39484752891692954
+      },
+      {
+        "camada": 10,
+        "grupo": "vistas",
+        "concorda_final": 0.2805005213764338,
+        "acerto": 0.30656934306569344
+      },
+      {
+        "camada": 10,
+        "grupo": "reservadas",
+        "concorda_final": 0.24237644584647738,
+        "acerto": 0.34542586750788645
+      },
+      {
+        "camada": 11,
+        "grupo": "vistas",
+        "concorda_final": 0.3680917622523462,
+        "acerto": 0.335245046923879
+      },
+      {
+        "camada": 11,
+        "grupo": "reservadas",
+        "concorda_final": 0.2676130389064143,
+        "acerto": 0.37802313354363826
+      },
+      {
+        "camada": 12,
+        "grupo": "vistas",
+        "concorda_final": 0.27007299270072993,
+        "acerto": 0.24504692387904067
+      },
+      {
+        "camada": 12,
+        "grupo": "reservadas",
+        "concorda_final": 0.4547844374342797,
+        "acerto": 0.434279705573081
+      },
+      {
+        "camada": 13,
+        "grupo": "vistas",
+        "concorda_final": 0.26746611053180397,
+        "acerto": 0.3102189781021898
+      },
+      {
+        "camada": 13,
+        "grupo": "reservadas",
+        "concorda_final": 0.2707676130389064,
+        "acerto": 0.35646687697160884
+      },
+      {
+        "camada": 14,
+        "grupo": "vistas",
+        "concorda_final": 0.3592283628779979,
+        "acerto": 0.31178310740354537
+      },
+      {
+        "camada": 14,
+        "grupo": "reservadas",
+        "concorda_final": 0.41114616193480547,
+        "acerto": 0.2823343848580442
+      },
+      {
+        "camada": 15,
+        "grupo": "vistas",
+        "concorda_final": 0.2278415015641293,
+        "acerto": 0.2523461939520334
+      },
+      {
+        "camada": 15,
+        "grupo": "reservadas",
+        "concorda_final": 0.4332281808622503,
+        "acerto": 0.4043112513144059
+      },
+      {
+        "camada": 16,
+        "grupo": "vistas",
+        "concorda_final": 0.1981230448383733,
+        "acerto": 0.2575599582898853
+      },
+      {
+        "camada": 16,
+        "grupo": "reservadas",
+        "concorda_final": 0.3312302839116719,
+        "acerto": 0.4116719242902208
+      },
+      {
+        "camada": 17,
+        "grupo": "vistas",
+        "concorda_final": 0.2653806047966632,
+        "acerto": 0.3096976016684046
+      },
+      {
+        "camada": 17,
+        "grupo": "reservadas",
+        "concorda_final": 0.2939011566771819,
+        "acerto": 0.3764458464773922
+      },
+      {
+        "camada": 18,
+        "grupo": "vistas",
+        "concorda_final": 0.26225234619395205,
+        "acerto": 0.24817518248175183
+      },
+      {
+        "camada": 18,
+        "grupo": "reservadas",
+        "concorda_final": 0.3217665615141956,
+        "acerto": 0.250788643533123
+      },
+      {
+        "camada": 19,
+        "grupo": "vistas",
+        "concorda_final": 0.20072992700729927,
+        "acerto": 0.27007299270072993
+      },
+      {
+        "camada": 19,
+        "grupo": "reservadas",
+        "concorda_final": 0.3107255520504732,
+        "acerto": 0.3675078864353312
+      },
+      {
+        "camada": 20,
+        "grupo": "vistas",
+        "concorda_final": 0.2857142857142857,
+        "acerto": 0.28832116788321166
+      },
+      {
+        "camada": 20,
+        "grupo": "reservadas",
+        "concorda_final": 0.3017875920084122,
+        "acerto": 0.27497371188222924
+      },
+      {
+        "camada": 21,
+        "grupo": "vistas",
+        "concorda_final": 0.2528675703858186,
+        "acerto": 0.26225234619395205
+      },
+      {
+        "camada": 21,
+        "grupo": "reservadas",
+        "concorda_final": 0.5099894847528917,
+        "acerto": 0.3843322818086225
+      },
+      {
+        "camada": 22,
+        "grupo": "vistas",
+        "concorda_final": 0.2956204379562044,
+        "acerto": 0.2924921793534932
+      },
+      {
+        "camada": 22,
+        "grupo": "reservadas",
+        "concorda_final": 0.3264984227129338,
+        "acerto": 0.24132492113564669
+      },
+      {
+        "camada": 23,
+        "grupo": "vistas",
+        "concorda_final": 0.29718456725756,
+        "acerto": 0.3086548488008342
+      },
+      {
+        "camada": 23,
+        "grupo": "reservadas",
+        "concorda_final": 0.2576235541535226,
+        "acerto": 0.2723449001051525
+      },
+      {
+        "camada": 24,
+        "grupo": "vistas",
+        "concorda_final": 0.30031282586027114,
+        "acerto": 0.29040667361835243
+      },
+      {
+        "camada": 24,
+        "grupo": "reservadas",
+        "concorda_final": 0.26919032597266035,
+        "acerto": 0.2807570977917981
+      },
+      {
+        "camada": 25,
+        "grupo": "vistas",
+        "concorda_final": 0.3592283628779979,
+        "acerto": 0.3592283628779979
+      },
+      {
+        "camada": 25,
+        "grupo": "reservadas",
+        "concorda_final": 0.19032597266035753,
+        "acerto": 0.28969505783385907
+      },
+      {
+        "camada": 26,
+        "grupo": "vistas",
+        "concorda_final": 0.3362877997914494,
+        "acerto": 0.3550573514077164
+      },
+      {
+        "camada": 26,
+        "grupo": "reservadas",
+        "concorda_final": 0.35646687697160884,
+        "acerto": 0.41692954784437436
+      },
+      {
+        "camada": 27,
+        "grupo": "vistas",
+        "concorda_final": 0.24504692387904067,
+        "acerto": 0.3023983315954119
+      },
+      {
+        "camada": 27,
+        "grupo": "reservadas",
+        "concorda_final": 0.3527865404837014,
+        "acerto": 0.41430073606729756
+      },
+      {
+        "camada": 28,
+        "grupo": "vistas",
+        "concorda_final": 0.3472367049009385,
+        "acerto": 0.3613138686131387
+      },
+      {
+        "camada": 28,
+        "grupo": "reservadas",
+        "concorda_final": 0.3638275499474238,
+        "acerto": 0.4206098843322818
+      },
+      {
+        "camada": 29,
+        "grupo": "vistas",
+        "concorda_final": 0.3409801876955162,
+        "acerto": 0.35818561001042754
+      },
+      {
+        "camada": 29,
+        "grupo": "reservadas",
+        "concorda_final": 0.3659305993690852,
+        "acerto": 0.42218717139852785
+      },
+      {
+        "camada": 30,
+        "grupo": "vistas",
+        "concorda_final": 0.4040667361835245,
+        "acerto": 0.38686131386861317
+      },
+      {
+        "camada": 30,
+        "grupo": "reservadas",
+        "concorda_final": 0.3764458464773922,
+        "acerto": 0.42323869610935855
+      },
+      {
+        "camada": 31,
+        "grupo": "vistas",
+        "concorda_final": 0.3357664233576642,
+        "acerto": 0.37069864442127215
+      },
+      {
+        "camada": 31,
+        "grupo": "reservadas",
+        "concorda_final": 0.37276550998948477,
+        "acerto": 0.4284963196635121
+      },
+      {
+        "camada": 32,
+        "grupo": "vistas",
+        "concorda_final": 0.36287799791449427,
+        "acerto": 0.381126173096976
+      },
+      {
+        "camada": 32,
+        "grupo": "reservadas",
+        "concorda_final": 0.3601472134595163,
+        "acerto": 0.42008412197686645
+      },
+      {
+        "camada": 33,
+        "grupo": "vistas",
+        "concorda_final": 0.6339937434827946,
+        "acerto": 0.543274244004171
+      },
+      {
+        "camada": 33,
+        "grupo": "reservadas",
+        "concorda_final": 0.7439537329127235,
+        "acerto": 0.5757097791798107
+      },
+      {
+        "camada": 34,
+        "grupo": "vistas",
+        "concorda_final": 0.7460896767466111,
+        "acerto": 0.6246089676746611
+      },
+      {
+        "camada": 34,
+        "grupo": "reservadas",
+        "concorda_final": 0.8117770767613038,
+        "acerto": 0.5515247108307045
+      },
+      {
+        "camada": 35,
+        "grupo": "vistas",
+        "concorda_final": 0.7768508863399375,
+        "acerto": 0.6193952033368092
+      },
+      {
+        "camada": 35,
+        "grupo": "reservadas",
+        "concorda_final": 0.8117770767613038,
+        "acerto": 0.5494216614090431
+      },
+      {
+        "camada": 36,
+        "grupo": "vistas",
+        "concorda_final": 0.7794577685088634,
+        "acerto": 0.6313868613138686
+      },
+      {
+        "camada": 36,
+        "grupo": "reservadas",
+        "concorda_final": 0.7975814931650894,
+        "acerto": 0.556782334384858
+      },
+      {
+        "camada": 37,
+        "grupo": "vistas",
+        "concorda_final": 0.8493222106360793,
+        "acerto": 0.6543274244004171
+      },
+      {
+        "camada": 37,
+        "grupo": "reservadas",
+        "concorda_final": 0.7828601472134595,
+        "acerto": 0.5410094637223974
+      },
+      {
+        "camada": 38,
+        "grupo": "vistas",
+        "concorda_final": 0.7841501564129302,
+        "acerto": 0.6543274244004171
+      },
+      {
+        "camada": 38,
+        "grupo": "reservadas",
+        "concorda_final": 0.8112513144058885,
+        "acerto": 0.5604626708727655
+      },
+      {
+        "camada": 39,
+        "grupo": "vistas",
+        "concorda_final": 0.8050052137643379,
+        "acerto": 0.6751824817518248
+      },
+      {
+        "camada": 39,
+        "grupo": "reservadas",
+        "concorda_final": 0.7870662460567823,
+        "acerto": 0.5909568874868559
+      },
+      {
+        "camada": 40,
+        "grupo": "vistas",
+        "concorda_final": 0.843065693430657,
+        "acerto": 0.6835245046923879
+      },
+      {
+        "camada": 40,
+        "grupo": "reservadas",
+        "concorda_final": 0.7854889589905363,
+        "acerto": 0.5930599369085173
+      },
+      {
+        "camada": 41,
+        "grupo": "vistas",
+        "concorda_final": 0.9358706986444213,
+        "acerto": 0.6824817518248175
+      },
+      {
+        "camada": 41,
+        "grupo": "reservadas",
+        "concorda_final": 0.8727655099894848,
+        "acerto": 0.5609884332281808
+      },
+      {
+        "camada": 42,
+        "grupo": "vistas",
+        "concorda_final": 1.0,
+        "acerto": 0.6710114702815433
+      },
+      {
+        "camada": 42,
+        "grupo": "reservadas",
+        "concorda_final": 1.0,
+        "acerto": 0.5646687697160884
+      }
+    ],
+    "tuned": [
+      {
+        "camada": 1,
+        "grupo": "vistas",
+        "concorda_final": 0.49739311783107404,
+        "acerto": 0.4546402502606882
+      },
+      {
+        "camada": 1,
+        "grupo": "reservadas",
+        "concorda_final": 0.29547844374342797,
+        "acerto": 0.3470031545741325
+      },
+      {
+        "camada": 2,
+        "grupo": "vistas",
+        "concorda_final": 0.5198123044838373,
+        "acerto": 0.4854014598540146
+      },
+      {
+        "camada": 2,
+        "grupo": "reservadas",
+        "concorda_final": 0.3617245005257624,
+        "acerto": 0.26235541535226076
+      },
+      {
+        "camada": 3,
+        "grupo": "vistas",
+        "concorda_final": 0.5583941605839416,
+        "acerto": 0.5177267987486965
+      },
+      {
+        "camada": 3,
+        "grupo": "reservadas",
+        "concorda_final": 0.17087276550998948,
+        "acerto": 0.23186119873817035
+      },
+      {
+        "camada": 4,
+        "grupo": "vistas",
+        "concorda_final": 0.5620437956204379,
+        "acerto": 0.5151199165797706
+      },
+      {
+        "camada": 4,
+        "grupo": "reservadas",
+        "concorda_final": 0.21871713985278654,
+        "acerto": 0.20189274447949526
+      },
+      {
+        "camada": 5,
+        "grupo": "vistas",
+        "concorda_final": 0.5651720542231491,
+        "acerto": 0.5281543274244004
+      },
+      {
+        "camada": 5,
+        "grupo": "reservadas",
+        "concorda_final": 0.21766561514195584,
+        "acerto": 0.19085173501577288
+      },
+      {
+        "camada": 6,
+        "grupo": "vistas",
+        "concorda_final": 0.5641293013555787,
+        "acerto": 0.5198123044838373
+      },
+      {
+        "camada": 6,
+        "grupo": "reservadas",
+        "concorda_final": 0.21345951629863302,
+        "acerto": 0.19032597266035753
+      },
+      {
+        "camada": 7,
+        "grupo": "vistas",
+        "concorda_final": 0.5776850886339937,
+        "acerto": 0.5250260688216892
+      },
+      {
+        "camada": 7,
+        "grupo": "reservadas",
+        "concorda_final": 0.21188222923238695,
+        "acerto": 0.23606729758149317
+      },
+      {
+        "camada": 8,
+        "grupo": "vistas",
+        "concorda_final": 0.5761209593326382,
+        "acerto": 0.5260688216892596
+      },
+      {
+        "camada": 8,
+        "grupo": "reservadas",
+        "concorda_final": 0.21661409043112514,
+        "acerto": 0.1892744479495268
+      },
+      {
+        "camada": 9,
+        "grupo": "vistas",
+        "concorda_final": 0.5792492179353493,
+        "acerto": 0.5203336809176226
+      },
+      {
+        "camada": 9,
+        "grupo": "reservadas",
+        "concorda_final": 0.222397476340694,
+        "acerto": 0.19190325972660358
+      },
+      {
+        "camada": 10,
+        "grupo": "vistas",
+        "concorda_final": 0.5886339937434828,
+        "acerto": 0.5229405630865485
+      },
+      {
+        "camada": 10,
+        "grupo": "reservadas",
+        "concorda_final": 0.22292323869610936,
+        "acerto": 0.23291272344900105
+      },
+      {
+        "camada": 11,
+        "grupo": "vistas",
+        "concorda_final": 0.5776850886339937,
+        "acerto": 0.5198123044838373
+      },
+      {
+        "camada": 11,
+        "grupo": "reservadas",
+        "concorda_final": 0.22712933753943218,
+        "acerto": 0.19558359621451105
+      },
+      {
+        "camada": 12,
+        "grupo": "vistas",
+        "concorda_final": 0.578206465067779,
+        "acerto": 0.5208550573514077
+      },
+      {
+        "camada": 12,
+        "grupo": "reservadas",
+        "concorda_final": 0.23659305993690852,
+        "acerto": 0.2092534174553102
+      },
+      {
+        "camada": 13,
+        "grupo": "vistas",
+        "concorda_final": 0.5907194994786236,
+        "acerto": 0.5333680917622523
+      },
+      {
+        "camada": 13,
+        "grupo": "reservadas",
+        "concorda_final": 0.2323869610935857,
+        "acerto": 0.24079915878023134
+      },
+      {
+        "camada": 14,
+        "grupo": "vistas",
+        "concorda_final": 0.5959332638164755,
+        "acerto": 0.5344108446298227
+      },
+      {
+        "camada": 14,
+        "grupo": "reservadas",
+        "concorda_final": 0.19085173501577288,
+        "acerto": 0.19453207150368035
+      },
+      {
+        "camada": 15,
+        "grupo": "vistas",
+        "concorda_final": 0.6074035453597497,
+        "acerto": 0.540667361835245
+      },
+      {
+        "camada": 15,
+        "grupo": "reservadas",
+        "concorda_final": 0.24290220820189273,
+        "acerto": 0.22502628811777076
+      },
+      {
+        "camada": 16,
+        "grupo": "vistas",
+        "concorda_final": 0.6042752867570386,
+        "acerto": 0.5422314911366006
+      },
+      {
+        "camada": 16,
+        "grupo": "reservadas",
+        "concorda_final": 0.1456361724500526,
+        "acerto": 0.2092534174553102
+      },
+      {
+        "camada": 17,
+        "grupo": "vistas",
+        "concorda_final": 0.635036496350365,
+        "acerto": 0.5625651720542232
+      },
+      {
+        "camada": 17,
+        "grupo": "reservadas",
+        "concorda_final": 0.18506834910620398,
+        "acerto": 0.29442691903259727
+      },
+      {
+        "camada": 18,
+        "grupo": "vistas",
+        "concorda_final": 0.6423357664233577,
+        "acerto": 0.5479666319082378
+      },
+      {
+        "camada": 18,
+        "grupo": "reservadas",
+        "concorda_final": 0.24395373291272346,
+        "acerto": 0.2565720294426919
+      },
+      {
+        "camada": 19,
+        "grupo": "vistas",
+        "concorda_final": 0.6345151199165797,
+        "acerto": 0.5422314911366006
+      },
+      {
+        "camada": 19,
+        "grupo": "reservadas",
+        "concorda_final": 0.35436382754994744,
+        "acerto": 0.3117770767613039
+      },
+      {
+        "camada": 20,
+        "grupo": "vistas",
+        "concorda_final": 0.6892596454640251,
+        "acerto": 0.572992700729927
+      },
+      {
+        "camada": 20,
+        "grupo": "reservadas",
+        "concorda_final": 0.27602523659305994,
+        "acerto": 0.3648790746582545
+      },
+      {
+        "camada": 21,
+        "grupo": "vistas",
+        "concorda_final": 0.708029197080292,
+        "acerto": 0.5828988529718456
+      },
+      {
+        "camada": 21,
+        "grupo": "reservadas",
+        "concorda_final": 0.2707676130389064,
+        "acerto": 0.2812828601472135
+      },
+      {
+        "camada": 22,
+        "grupo": "vistas",
+        "concorda_final": 0.7398331595411888,
+        "acerto": 0.5740354535974974
+      },
+      {
+        "camada": 22,
+        "grupo": "reservadas",
+        "concorda_final": 0.3932702418506835,
+        "acerto": 0.37697160883280756
+      },
+      {
+        "camada": 23,
+        "grupo": "vistas",
+        "concorda_final": 0.6746611053180396,
+        "acerto": 0.551094890510949
+      },
+      {
+        "camada": 23,
+        "grupo": "reservadas",
+        "concorda_final": 0.4153522607781283,
+        "acerto": 0.4185068349106204
+      },
+      {
+        "camada": 24,
+        "grupo": "vistas",
+        "concorda_final": 0.7956204379562044,
+        "acerto": 0.600104275286757
+      },
+      {
+        "camada": 24,
+        "grupo": "reservadas",
+        "concorda_final": 0.5504731861198738,
+        "acerto": 0.444794952681388
+      },
+      {
+        "camada": 25,
+        "grupo": "vistas",
+        "concorda_final": 0.9113660062565172,
+        "acerto": 0.6558915537017727
+      },
+      {
+        "camada": 25,
+        "grupo": "reservadas",
+        "concorda_final": 0.7129337539432177,
+        "acerto": 0.4978969505783386
+      },
+      {
+        "camada": 26,
+        "grupo": "vistas",
+        "concorda_final": 0.8899895724713243,
+        "acerto": 0.6454640250260688
+      },
+      {
+        "camada": 26,
+        "grupo": "reservadas",
+        "concorda_final": 0.667192429022082,
+        "acerto": 0.47108307045215564
+      },
+      {
+        "camada": 27,
+        "grupo": "vistas",
+        "concorda_final": 0.9233576642335767,
+        "acerto": 0.6637122002085506
+      },
+      {
+        "camada": 27,
+        "grupo": "reservadas",
+        "concorda_final": 0.6840168243953733,
+        "acerto": 0.5021030494216614
+      },
+      {
+        "camada": 28,
+        "grupo": "vistas",
+        "concorda_final": 0.8894681960375391,
+        "acerto": 0.6459854014598541
+      },
+      {
+        "camada": 28,
+        "grupo": "reservadas",
+        "concorda_final": 0.5431125131440588,
+        "acerto": 0.36225026288117773
+      },
+      {
+        "camada": 29,
+        "grupo": "vistas",
+        "concorda_final": 0.8957247132429614,
+        "acerto": 0.64859228362878
+      },
+      {
+        "camada": 29,
+        "grupo": "reservadas",
+        "concorda_final": 0.6282860147213459,
+        "acerto": 0.4658254468980021
+      },
+      {
+        "camada": 30,
+        "grupo": "vistas",
+        "concorda_final": 0.9124087591240876,
+        "acerto": 0.6480709071949948
+      },
+      {
+        "camada": 30,
+        "grupo": "reservadas",
+        "concorda_final": 0.6771819137749737,
+        "acerto": 0.46898002103049424
+      },
+      {
+        "camada": 31,
+        "grupo": "vistas",
+        "concorda_final": 0.9238790406673618,
+        "acerto": 0.6553701772679875
+      },
+      {
+        "camada": 31,
+        "grupo": "reservadas",
+        "concorda_final": 0.7365930599369085,
+        "acerto": 0.5073606729758149
+      },
+      {
+        "camada": 32,
+        "grupo": "vistas",
+        "concorda_final": 0.9004171011470281,
+        "acerto": 0.6475495307612096
+      },
+      {
+        "camada": 32,
+        "grupo": "reservadas",
+        "concorda_final": 0.5767613038906414,
+        "acerto": 0.42797055730809674
+      },
+      {
+        "camada": 33,
+        "grupo": "vistas",
+        "concorda_final": 0.8952033368091762,
+        "acerto": 0.6506777893639207
+      },
+      {
+        "camada": 33,
+        "grupo": "reservadas",
+        "concorda_final": 0.7923238696109358,
+        "acerto": 0.4831756046267087
+      },
+      {
+        "camada": 34,
+        "grupo": "vistas",
+        "concorda_final": 0.9447340980187695,
+        "acerto": 0.6725755995828988
+      },
+      {
+        "camada": 34,
+        "grupo": "reservadas",
+        "concorda_final": 0.7018927444794952,
+        "acerto": 0.5031545741324921
+      },
+      {
+        "camada": 35,
+        "grupo": "vistas",
+        "concorda_final": 0.9478623566214807,
+        "acerto": 0.6715328467153284
+      },
+      {
+        "camada": 35,
+        "grupo": "reservadas",
+        "concorda_final": 0.8222923238696109,
+        "acerto": 0.5404837013669821
+      },
+      {
+        "camada": 36,
+        "grupo": "vistas",
+        "concorda_final": 0.9071949947862357,
+        "acerto": 0.6595411887382691
+      },
+      {
+        "camada": 36,
+        "grupo": "reservadas",
+        "concorda_final": 0.7649842271293376,
+        "acerto": 0.538906414300736
+      },
+      {
+        "camada": 37,
+        "grupo": "vistas",
+        "concorda_final": 0.9447340980187695,
+        "acerto": 0.6678832116788321
+      },
+      {
+        "camada": 37,
+        "grupo": "reservadas",
+        "concorda_final": 0.825446898002103,
+        "acerto": 0.5073606729758149
+      },
+      {
+        "camada": 38,
+        "grupo": "vistas",
+        "concorda_final": 0.9306569343065694,
+        "acerto": 0.6668404588112617
+      },
+      {
+        "camada": 38,
+        "grupo": "reservadas",
+        "concorda_final": 0.7891692954784437,
+        "acerto": 0.5651945320715037
+      },
+      {
+        "camada": 39,
+        "grupo": "vistas",
+        "concorda_final": 0.9395203336809176,
+        "acerto": 0.67570385818561
+      },
+      {
+        "camada": 39,
+        "grupo": "reservadas",
+        "concorda_final": 0.647739221871714,
+        "acerto": 0.3922187171398528
+      },
+      {
+        "camada": 40,
+        "grupo": "vistas",
+        "concorda_final": 0.9311783107403545,
+        "acerto": 0.6626694473409802
+      },
+      {
+        "camada": 40,
+        "grupo": "reservadas",
+        "concorda_final": 0.7802313354363828,
+        "acerto": 0.5662460567823344
+      },
+      {
+        "camada": 41,
+        "grupo": "vistas",
+        "concorda_final": 0.9442127215849844,
+        "acerto": 0.6699687174139729
+      },
+      {
+        "camada": 41,
+        "grupo": "reservadas",
+        "concorda_final": 0.613564668769716,
+        "acerto": 0.5057833859095688
+      },
+      {
+        "camada": 42,
+        "grupo": "vistas",
+        "concorda_final": 0.9348279457768509,
+        "acerto": 0.670490093847758
+      },
+      {
+        "camada": 42,
+        "grupo": "reservadas",
+        "concorda_final": 0.711882229232387,
+        "acerto": 0.5021030494216614
+      }
+    ]
+  },
+  "politica": {
+    "eps_0.01": {
+      "limiares": {
+        "7": 0.9238390710145724,
+        "8": null,
+        "9": 0.9153817514886168,
+        "10": null,
+        "11": 0.8934404021891361,
+        "12": 0.8958902660082002,
+        "13": 0.9052537670054083,
+        "14": 0.8867732759465894,
+        "15": 0.9114571638137668,
+        "16": 0.9272635294325681,
+        "17": 0.8789948945774948,
+        "18": 0.8958790410878388,
+        "19": 0.8301624038768973,
+        "20": 0.8198871460253052,
+        "21": 0.7434162151228281,
+        "22": 0.8786365797820793,
+        "23": 0.758277490690466,
+        "24": 0.6513427365625405,
+        "25": 0.6772497650237074,
+        "26": 0.6052492200378259,
+        "27": 0.71488760437441,
+        "28": 0.7291662313368851,
+        "29": 0.5905944032469788,
+        "30": 0.5819385063456153,
+        "31": 0.6839154426495407,
+        "32": 0.7630677833221785,
+        "33": 0.5762616208903591,
+        "34": 0.5568411169141143,
+        "35": 0.7442865928655642,
+        "36": 0.6302543192677547,
+        "37": 0.6203085527492499,
+        "38": 0.5769237719671347,
+        "39": 0.6079374661444629,
+        "40": 0.5367627553720613
+      },
+      "vistas": {
+        "custo_medio_relativo": 0.5968062212821619,
+        "muda_vs_completo": 0.04953076120959333,
+        "acerto": 0.6762252346193952,
+        "acerto_completo": 0.6710114702815433,
+        "camada_media_saida": 25.30031282586027
+      },
+      "reservadas": {
+        "custo_medio_relativo": 0.551669160027466,
+        "muda_vs_completo": 0.3449001051524711,
+        "acerto": 0.4374342797055731,
+        "acerto_completo": 0.5646687697160884,
+        "camada_media_saida": 23.446372239747635
+      }
+    },
+    "eps_0.02": {
+      "limiares": {
+        "7": 0.9238390710145724,
+        "8": null,
+        "9": 0.8994451275881239,
+        "10": null,
+        "11": 0.8876110908531315,
+        "12": 0.8884202307017338,
+        "13": 0.8933392158419682,
+        "14": 0.8800841271514787,
+        "15": 0.8987890739538665,
+        "16": 0.8792381366779534,
+        "17": 0.8682474859811586,
+        "18": 0.888581591934141,
+        "19": 0.8038514612894047,
+        "20": 0.7624662236614699,
+        "21": 0.71127381010943,
+        "22": 0.8347040371976182,
+        "23": 0.6906584125300838,
+        "24": 0.6096843977338496,
+        "25": 0.6260977232141127,
+        "26": 0.5510056606891995,
+        "27": 0.6683309614371633,
+        "28": 0.6554584066756267,
+        "29": 0.5592672727537126,
+        "30": 0.5487368836260759,
+        "31": 0.61807349021165,
+        "32": 0.6998257852419293,
+        "33": 0.5346484806178913,
+        "34": 0.5267123102600308,
+        "35": 0.6564840951068771,
+        "36": 0.5579074021280214,
+        "37": 0.5585680113423694,
+        "38": 0.5416916937929731,
+        "39": 0.5691011661588684,
+        "40": 0.509461841081952
+      },
+      "vistas": {
+        "custo_medio_relativo": 0.573183144437604,
+        "muda_vs_completo": 0.05578727841501564,
+        "acerto": 0.6699687174139729,
+        "acerto_completo": 0.6710114702815433,
+        "camada_media_saida": 24.27789363920751
+      },
+      "reservadas": {
+        "custo_medio_relativo": 0.516504719558541,
+        "muda_vs_completo": 0.4353312302839117,
+        "acerto": 0.4064143007360673,
+        "acerto_completo": 0.5646687697160884,
+        "camada_media_saida": 21.922712933753942
+      }
+    }
+  }
+}
